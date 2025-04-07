@@ -19,6 +19,7 @@ library(ggplot2)
 #======================================
 
 regions <- read.csv("iraq_regions_coordinatesadded.csv")
+distances <- read.csv("network_distances.csv")
 dist <- distances$distance
 governorates <- regions$ADM1_EN
 districts <- regions$ADM2_EN
